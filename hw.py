@@ -22,3 +22,5 @@ def sum(learner):
         if debug>0:
             print(learner[score], average)
     return average
+
+import xlrd
