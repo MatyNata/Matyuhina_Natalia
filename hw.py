@@ -8,3 +8,6 @@ def sheet_data(sheet):
 
     sheetIndex = 0
     for X in range(1, s.nrows):
+        learner = s.row_values(X)
+        print(learner)
+        average=sum(learner)
