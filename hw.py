@@ -24,3 +24,5 @@ def sum(learner):
     return average
 
 import xlrd
+
+a = xlrd.open_workbook("БИОЛОГИ_ таблица успеваемости осень 2018.xlsx")
