@@ -40,3 +40,9 @@ class PRESENT_RESULT  :
         self.a=a
     def __str__(self):
         return self.a
+
+
+
+
+print("RESULT:")
+
