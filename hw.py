@@ -11,3 +11,14 @@ def sheet_data(sheet):
         learner = s.row_values(X)
         print(learner)
         average=sum(learner)
+        out.append([learner[1], average])
+
+    return out
+
+def sum(learner):
+    average = 0
+    for score in range(2, len(learner)) :
+        average = average+learner[score] // 2
+        if debug>0:
+            print(learner[score], average)
+    return average
