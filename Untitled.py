@@ -33,7 +33,7 @@ for s in a.sheets():
 
 class PRESENT_RESULT  :
     def __init__(self, a):
-        self.a=a
+         self.a=a
     def __str__(self):
         return self.a
 
