@@ -26,3 +26,7 @@ def sum(learner):
 import xlrd
 
 a = xlrd.open_workbook("БИОЛОГИ_ таблица успеваемости осень 2018.xlsx")
+debug = 1
+
+for s in a.sheets():
+    if (s.name == 'Python') == True:
