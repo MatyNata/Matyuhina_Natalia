@@ -46,3 +46,9 @@ class PRESENT_RESULT  :
 
 print("RESULT:") 
 
+resultat = ''
+
+for _ in range(1, len(out)):
+	resultat += str(out[_])
+
+print(PRESENT_RESULT(resultat))
