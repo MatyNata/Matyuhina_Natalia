@@ -15,7 +15,7 @@ def sum(learner):
     average = 0
     for score in range(2, len(learner)) :
         average = average+learner[score] // 2
-        if debug>0:
++        if debug>0:
             print(learner[score], average)
     return average
 
