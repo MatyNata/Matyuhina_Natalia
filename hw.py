@@ -30,3 +30,13 @@ debug = 1
 
 for s in a.sheets():
     if (s.name == 'Python') == True:
+out = sheet_data(s)
+        if debug == 1:
+            print(out)
+
+
+class PRESENT_RESULT  :
+    def __init__(self, a):
+        self.a=a
+    def __str__(self):
+        return self.a
